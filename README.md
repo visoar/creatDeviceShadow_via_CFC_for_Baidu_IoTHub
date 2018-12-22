@@ -66,10 +66,12 @@
 ## 改进
 
 在大多数情况下，设备的描述信息和物模型都是固定的，所以这部分也可以写入环境变量。
+
 如我添加了 `defaultSchemaId` 和 `defaultDescription` 的环境变量，就不需要在请求中带上`schemaId`及`description`了。
 ![环境变量](https://ws1.sinaimg.cn/large/0071ouepgy1fyfyipyyx1j318i0ax75o.jpg)
 
 # 未做
 1、鉴权信息（密码）重置：本示例中，同一影子名若重复发送，则会提示影子已经存在
+
 2、白名单或其他加密或验证方式
 
