@@ -1,4 +1,4 @@
-# 动态创建设备物影子
+# 动态创建百度云天工 IoT Hub 的设备物影子
 
 本例实现通过百度云函数计算，动态创建天工物接入的设备影子，并返回连接信息（影子的用户名&密码）；并可搭配规则引擎，实现通过MQTT消息创建影子。
 
@@ -59,6 +59,7 @@
     "schemaId": "8093f59e-7df2-4207-a28d-cdfd65999ac4"
 }
 ```
+* 其中 schemaId 可以通过 API ，也可以在控制台点开物模型详情页，从 URL 中获取。
 
 然后就可以在主题 `creatdevice/resp`中收到鉴权信息。
 ![返回鉴权信息](http://ww1.sinaimg.cn/large/5a8b1db6ly1fyfyniawfjj20ze0o5k03.jpg)
